@@ -131,3 +131,12 @@ the following vector in the associated lattice.
 The norm of the found ternary key is `18.3575597506858`, and both of the found keys have been found at blocksize=63 and 
 took approximately`30.7` core days on a system with Linux (Ubuntu 22.04.2
 LTS) on Intel(R) Xeon(R) CPU E3-1246 v3 @ 3.50GHz and 32 GB installed RAM.
+
+The following table summarizes the experimental results for the tested dimensions; the dimension of the lattice where the SVP is solved is `2N`.
+The blocksize value is averaged over `100` trials where the lattice's dimension is smaller than `226` and averaged over at least `20` trials for larger dimensions.
+
+  
+| N                   | 71 | 73 | 79 | 83 | 89 | 97 | 101 | 107 | 109 | 113 | 127 | 131|
+| ------------------  |----|----|----|----|----|----|-----|-----|-----|-----|-----|----|
+| $\beta (cyclic)$    |2.28|2.48|3.02|3.64|5.22|8.94|11.05|16.22|18.56|26.68|52.8|57.35|
+| $\beta (dihedral)$  |2.87 |3  |3.88|5.06|7.18|11.68|15.63|26.57|34.06|43.95|63.6|_   | 
