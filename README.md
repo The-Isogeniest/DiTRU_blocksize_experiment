@@ -19,7 +19,7 @@ Short description of the content:
 * `utils.py` contains helping functions
 * folder `keys_dumps` contains two folders, `cyclic` and `dihedral`: each of them contains two subfolders, `records` and `seeds.`
   * subfolder `records` contains records corresponding to the original keys and the retrieved keys according to the attack
-    ; for a cyclic group, the records save `f, ``g,` `key norm,` and `h` for the original key 
+    ; for a cyclic group, the records save `f`, `g`, `key norm,` and `h` for the original key 
     `k1 (non-ternary)`: the non-ternary key retrieved by the attack, `k1-norm`: its norm,`k2 (ternary)`: the ternary key 
      retrieved by the attack, `k2-norm`: its norm, `beta1`: blocksize needed to retrieve k1, `beta2`: blocksize needed to
      retrieve the ternary key, `total time (seconds)`: total time of the attack.
