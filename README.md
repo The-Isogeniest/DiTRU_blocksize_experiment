@@ -140,3 +140,5 @@ The blocksize value is averaged over `100` trials where the lattice's dimension 
 | ------------------  |----|----|----|----|----|----|-----|-----|-----|-----|-----|----|
 | $\beta (cyclic)$    |2.28|2.48|3.02|3.64|5.22|8.94|11.05|16.22|18.56|26.68|52.8|57.35|
 | $\beta (dihedral)$  |2.87 |3  |3.88|5.06|7.18|11.68|15.63|26.57|34.06|43.95|63.6|_   | 
+
+![summary](https://github.com/The-Isogeniest/DiTRU_blocksize_experiment/assets/106514085/efe13a33-1f77-45c6-ac9a-8353009a9c46)
