@@ -58,7 +58,6 @@ You can solve the SVP using progressive BKZ for a lattice of dimension 188 by ru
 ```
 python attack.py 89   --verbose=True --dump=True --group="cyclic"   --bkz_betas=3:50
 
-
 ```
 
 It takes approximately less than 40 seconds on a laptop.
