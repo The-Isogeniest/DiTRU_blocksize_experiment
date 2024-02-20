@@ -1,7 +1,7 @@
 # DiTRU: A Resurrection of NTRU over Dihedral Group
 This repository contains the scripts accompanying the article
 
-## Providing experimental results to identify the hardness of solving the SVP problem against NTRU lattice over cyclic group vs. DiTRU lattice after one layer of Gentry's attack
+## Providing experimental results to identify the hardness of solving the SVP against NTRU lattice over cyclic group vs. DiTRU lattice after one layer of Gentry's attack
 
 
 
